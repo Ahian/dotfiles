@@ -10,6 +10,8 @@ set -U fish_user_paths $fish_user_paths /opt/homebrew/bin
 set -U fish_user_paths $fish_user_paths /usr/local/bin
 set PROJECT_DIR ~/prj
 set -x HOMEBREW_NO_AUTO_UPDATE true
+set -x LANG zh_CN.UTF-8
+set -x LC_CTYPE "zh_CN.UTF-8"
 # 也可以fish_add_path /usr/local/bin
 
 # set co2 '/Applications/Visual\ Studio\ Code.app/contents/Resources/app/bin/code' # 设置变量，替代 name=czl
